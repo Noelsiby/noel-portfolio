@@ -15,9 +15,9 @@
   --text-secondary: #94a3b8;
   --text-accent: #00f5ff;
   --border-glass: rgba(0, 245, 255, 0.12);
-  --font-display: 'Orbitron', sans-serif;
-  --font-body: 'Inter', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
+  --font-display: var(--font-orbitron), 'Orbitron', sans-serif;
+  --font-body: var(--font-inter), 'Inter', sans-serif;
+  --font-mono: var(--font-jetbrains), 'JetBrains Mono', monospace;
 }
 
 /* ═══════════════════════════════════════════════

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const defaultData = {
   bio: {
@@ -350,7 +351,7 @@ export default function AdminDashboard() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <a
+          <Link
             href="/"
             style={{
               color: "#00f5ff",
@@ -361,7 +362,7 @@ export default function AdminDashboard() {
             }}
           >
             &lt;NS /&gt;
-          </a>
+          </Link>
           <span style={{ color: "#64748b", fontSize: "0.85rem" }}>Admin Dashboard</span>
         </div>
         <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
